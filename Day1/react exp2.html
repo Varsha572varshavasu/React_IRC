@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href ="react 2.css">
+</head>
+<body>
+    <form class="container shadow">
+        <input type ="password" name ="" id="" placeholder="Password" class="auth-input">
+        <input type="password" name="" id="" placeholder="Confirm password" class="auth-input">
+        <input type ="submit" value ="Login" class="auth-btn">
+
+    </form>  
+    <button onclick="show()"> show user</button>
+    <p id="user"></p>
+    
+</body>
+<script>
+    function register(){
+        let x= document.getElementById("username").value;
+        let m1= document.getElementById("pwd").value;
+        let m2= "123"
+            if(m1==m2)
+            {
+                alert("Logged in ! ");
+                alert("registered ! "+x)
+            }
+            else{
+                alert("Mismatched")
+           }
+       }
+</script>
+</html>
