@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-
+import './signup.css';
 export default class SignUp extends Component {
     render() {
         return (
-            <div class="borders">
-
+            <div className="bg2">
+            <div className="borders">
             <form>
                 <h3>Sign Up</h3>
 
@@ -54,6 +54,7 @@ export default class SignUp extends Component {
                     <a class = "registered" href="/sign-in">Already registered signin?</a>
                 </p>
             </form>
+            </div>
             </div>
         )
     }

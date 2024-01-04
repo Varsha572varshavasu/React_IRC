@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  
+  .nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+  
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    margin-top: 0px;
+    /* width: 280px; */
+    /* background: #b44242; */
+  
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    overflow: hidden;
+    transition: 1s;
+  }
+  .nav:hover{
+    text-align: center;
+      width: 280px;
+      transition: 1s;
+  }
+  .logo{
+      text-align: center;
+      display: flex;
+      margin: 10px 0 0 10px;
+      padding-bottom: 0rem;
+      margin-top: 5px;
+  }
+  
+  .logo img{
+  
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+    }
+  .logo span{
+      font-weight: bold;
+      padding-bottom: 40px;
+      padding-left: 15px;
+      font-size: 18px;
+      text-transform: uppercase;
+  }
+  
+  a{
+      position: relative;
+      width: 280px;
+      font-size: 14px;
+      color: rgb(188, 187, 187);
+      display: table;
+      padding: 10px;
+      padding-bottom: 30px;
+  }
+  nav .fas{
+      position: relative;
+      width: 70px;
+      height: 40px;
+      top: 20px;
+      font-size: 20px;
+      text-align: center;
+  }
+  .nav-item{
+      position: relative;
+      top: 15px;
+      text-align: center;
+      margin-left: 10px;
+  }
+  a:hover{
+      background: #615f5f;
+  }
+  a:hover i{
+      color: #34AF6D;
+      transition: 0.5s;
+  }
+  .logout{
+      position: absolute;
+      bottom: 0;
+  }
+  
+  .container{
+      display: flex;
+  }
+  ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 100vw;
+  }
+  
+  /* Style for the navigation bar */
+  ul.navbar {
+    background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+      background-color: #efdfdf;
+      overflow: hidden;
+      height: 70px;
+      /* text-align: center; */
+    }
+  
+    /* Style for the navigation bar links */
+    ul.navbar li {
+      float: left;
+    }
+  
+    ul.navbar li  {
+      display: block;
+      color: white;
+      margin-top: 10px;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    /* Reduce the margin between navigation bar items */
+    ul.navbar li:not(:last-child) {
+      margin-right: 10px;
+    }
+  
+    /* Change color on hover */
+    ul.navbar li :hover {
+      background-color: #494949;
+      color: rgb(235, 230, 230);
+    }npm

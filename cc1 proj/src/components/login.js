@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import './login.css';
 export default class Login extends Component {
     render() {
         return (
-            <div class="hi">
-
+            <div className="background">
+            <div className="login">
             <form>
                 <h3>Sign In</h3>
 
@@ -41,6 +42,7 @@ export default class Login extends Component {
                     <a href="#">Forgot password?</a>
                 </p>
             </form>
+            </div>
             </div>
         );
     }

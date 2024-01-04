@@ -44,10 +44,21 @@
 .nav-link
 {
   width:100px;
-  color: #ffff;
+  /* color: #faf7f7; */
   margin-left: 450%;
 }
 .nav-item
 {
   padding-left: 0;
+}
+.navbar {
+  background-color:  #95471ae8;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
